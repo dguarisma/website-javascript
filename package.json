@@ -1,0 +1,31 @@
+{
+  "name": "javascript-tricks",
+  "version": "1.0.0",
+  "description": "Professional javascript notes.",
+  "license": "MIT",
+  "author": "David Guarisma <davidguarisma@gmail.com>",
+  "keywords": [
+    "abort-fetch",
+    "this",
+    "promises",
+    "call-apply-bind",
+    "prototypal-inheritance",
+    "generators",
+    "typescript",
+    "singleton",
+    "observer",
+    "decorator"
+  ],
+  "scripts": {
+    "start": "parcel index.html practice/index.html practice/**/*.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.3"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "dependencies": {
+    "@dguarisma/videoplayer": "^1.0.3"
+  }
+}
